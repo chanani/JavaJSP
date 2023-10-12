@@ -9,14 +9,14 @@
         <location>/error/error_404.jsp</location>
     </error-page>
 
-    <error-page>
+    <!--<error-page>
         <error-code>500</error-code>
         <location>/error/error_500.jsp</location>
-    </error-page>
+    </error-page>-->
 
     <welcome-file-list>
         <welcome-file>/test02/main.jsp</welcome-file>
     </welcome-file-list>
 
-    
+
 </web-app>
