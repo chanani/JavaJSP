@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<form action="member6.jsp" method="post">
+<form action="/ex02/member09.jsp" method="post">
     <h1 style="text-align: center">회원가입 창</h1>
     <table align="center">
         <tr>
