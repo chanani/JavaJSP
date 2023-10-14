@@ -9,7 +9,7 @@ public class MemberBean {
     private String name;
     private String email;
     private Date joinDate;
-
+    private Address addr;
 
     public MemberBean() {
     }
@@ -59,5 +59,13 @@ public class MemberBean {
 
     public void setJoinDate(Date joinDate) {
         this.joinDate = joinDate;
+    }
+
+    public Address getAddr() {
+        return addr;
+    }
+
+    public void setAddr(Address addr) {
+        this.addr = addr;
     }
 }

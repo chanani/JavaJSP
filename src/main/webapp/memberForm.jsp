@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <form action="memeber2.jsp" method="post">
+  <form action="elParam/forward.jsp" method="post">
     <h1 style="text-align: center">회원가입 창</h1>
     <table align="center">
       <tr>
