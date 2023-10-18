@@ -1,0 +1,22 @@
+
+g	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8σιε²1
+g	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8σιε²1
+g	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8τιε²1
+g	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8τιε²1
+g	java:S112|"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8τιε²1
+L
+java:S3740"/Provide the parametrized type for this generic.(ΚϋδΝ8καρ²1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ΠΑψζύÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(ρ¬­;8‘κε²1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(κΕύούÿÿÿÿ8•κε²1
+U	java:S106N"9Replace this use of System.out or System.err by a logger.(έ–ι8κε²1
+U	java:S106T"9Replace this use of System.out or System.err by a logger.(΄„ωή8κε²1
+Z	java:S106a"9Replace this use of System.out or System.err by a logger.(µ¦“ϋÿÿÿÿ8›κε²1
+S
+java:S6437b"6Revoke and change this password, as it is compromised.(εª£8›κε²1
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(ί®²²ϋÿÿÿÿ8›κε²1
+]	java:S125d"<This block of commented-out lines of code should be removed.(ΝΌψΜώÿÿÿÿ8›κε²1
+Z	java:S106o"9Replace this use of System.out or System.err by a logger.(ρέή§ύÿÿÿÿ8κε²1
+Z	java:S106z"9Replace this use of System.out or System.err by a logger.(•ιωÿÿÿÿ8κε²1
+Q
+java:S1068"/Remove this unused "dataFactory" private field.(Όψβχωÿÿÿÿ8κε²1

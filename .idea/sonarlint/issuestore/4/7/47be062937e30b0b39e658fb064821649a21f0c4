@@ -1,0 +1,26 @@
+
+g	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ü·Ì÷±1
+g	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ü·Ì÷±1
+g	java:S112^"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ü·Ì÷±1
+g	java:S112o"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ü·Ì÷±1
+h	java:S112„"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ü·Ì÷±1
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ú¡ñüÿÿÿÿ8ü·Ì÷±1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—É¤¶üÿÿÿÿ8ı·Ì÷±1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áÆœ8ş·Ì÷±1
+W	java:S125
+"<This block of commented-out lines of code should be removed.(ñ¬­;8‡¸Ì÷±1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(şçú‡úÿÿÿÿ8Š¸Ì÷±1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(êÅıïıÿÿÿÿ8¸Ì÷±1
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(Íæ‡âùÿÿÿÿ8¸Ì÷±1
+U	java:S106V"9Replace this use of System.out or System.err by a logger.(İŠ–é8¸Ì÷±1
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(´„ùŞ8ş’Û÷±1
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(šµ¦“ûÿÿÿÿ8ëúó÷±1
+S
+java:S6437j"6Revoke and change this password, as it is compromised.(åª£8¸Ì÷±1
+Z	java:S106k"9Replace this use of System.out or System.err by a logger.(ß®²²ûÿÿÿÿ8ìúó÷±1
+]	java:S125l"<This block of commented-out lines of code should be removed.(Í¼øÌşÿÿÿÿ8¸Ì÷±1
+Z	java:S106w"9Replace this use of System.out or System.err by a logger.(ñİŞ§ıÿÿÿÿ8„½ˆø±1
+[	java:S106‚"9Replace this use of System.out or System.err by a logger.(Š•éùÿÿÿÿ8éçø±1
+Q
+java:S1068"/Remove this unused "dataFactory" private field.(¼øâ÷ùÿÿÿÿ8¸Ì÷±1

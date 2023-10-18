@@ -33,5 +33,6 @@ public class MemberServlet extends HttpServlet {
         } else{
             out.println("usable");
         }
+
     }
 }

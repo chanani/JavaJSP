@@ -14,16 +14,16 @@
             $.ajax({
                 type : "post",
                 dataType : "text",
-                async : false,
+                async : true,
                 url : "http://localhost:8090/mem",
                 data : {id : id},
                 success : function(data, textStatus){
-                    console.log(data)
-                  if (data === 'usable'){
+                    console.log(data);
+                  if (data.includes("not_usable")){
+                      $("#message").text("사용할 수 없는 아이디 입니다.")
+                  } else {
                       $("#message").text("사용할 수 있는 아이디 입니다.");
                       $("#btn_duplicate").prop("disabled", true);
-                  } else {
-                      $("#message").text("사용할 수 없는 아이디 입니다.")
                   }
                 } ,
                 error : function(data, textStatus){
