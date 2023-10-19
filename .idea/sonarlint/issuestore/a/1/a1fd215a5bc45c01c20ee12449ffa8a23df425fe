@@ -1,0 +1,16 @@
+
+jWeb:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ8›½¨‰´1
+a	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8œ½¨‰´1
+OWeb:TableWithoutCaptionCheck8" Add a description to this table.(³¯©¤8–õ ´1
+A	Web:S52568"%Add "<th>" headers to this "<table>".(³¯©¤8–õ ´1
+E	Web:S18278")Remove this deprecated "align" attribute.(³¯©¤8–õ ´1
+J	Web:S18279")Remove this deprecated "align" attribute.(®Ÿ·Íúÿÿÿÿ8–õ ´1
+L	Web:S18279"+Remove this deprecated "bgcolor" attribute.(®Ÿ·Íúÿÿÿÿ8–õ ´1
+J	Web:S1827:")Remove this deprecated "width" attribute.(™×¥Œüÿÿÿÿ8–õ ´1
+E	Web:S1827;")Remove this deprecated "width" attribute.(ÀÄ±œ8–õ ´1
+D	Web:S1827<")Remove this deprecated "width" attribute.(±»é-8–õ ´1
+J	Web:S1827=")Remove this deprecated "width" attribute.(‰‚›ªüÿÿÿÿ8–õ ´1
+J	Web:S1827>")Remove this deprecated "width" attribute.(½È¨Ôùÿÿÿÿ8–õ ´1
+J	Web:S1827?")Remove this deprecated "width" attribute.(¢ê‘ùùÿÿÿÿ8ÌÑ´1
+E	Web:S1827@")Remove this deprecated "width" attribute.(Á¬À¥8‘úÑ´1
+J	Web:S1827K")Remove this deprecated "align" attribute.(Ì‡¡ÿıÿÿÿÿ8–õ ´1

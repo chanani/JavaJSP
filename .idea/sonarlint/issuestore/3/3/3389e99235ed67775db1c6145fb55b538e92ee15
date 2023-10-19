@@ -1,0 +1,17 @@
+
+7
+java:S1220""Move this file to a named package.8¡ˆ›Ž´1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÍÆ‹©ûÿÿÿÿ8£ˆ›Ž´1
+„
+java:S1989"bHandle the following exceptions that could be thrown by "doHandle": ServletException, IOException.(«æÜÆúÿÿÿÿ8¥ˆ›Ž´1
+„
+java:S1989"bHandle the following exceptions that could be thrown by "doHandle": ServletException, IOException.(«æÜÆúÿÿÿÿ8¦ˆ›Ž´1
+‰
+java:S1989""lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(ï‡‹ê8¦ˆ›Ž´1
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(»Ä‡á8§ˆ›Ž´1
+i
+java:S1871J"LThis branch's code block is the same as the block for the branch on line 39.(å¥ž‡8§ˆ›Ž´1
+ƒ
+java:S1989P"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ÜÕˆêøÿÿÿÿ8©ˆ›Ž´1
+U
+java:S1068"3Remove this unused "seriaVersionUID" private field.(ÍÆ‹©ûÿÿÿÿ8©ˆ›Ž´1
