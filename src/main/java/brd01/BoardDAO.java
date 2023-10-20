@@ -20,21 +20,22 @@ public class BoardDAO {
         try {
             connDB();
             String query = "SELECT " +
-                    "@level := @level + 1 AS level, " +
+                    "CASE " +
+                    "WHEN parentNO = 0 THEN 1 " +
+                    "ELSE 2 " +
+                    "END AS level, " +
                     "articleNO, " +
                     "parentNO, " +
                     "title, " +
                     "content, " +
                     "writeDate, " +
                     "id " +
-                    "FROM " +
-                    "t_board " +
-                    "JOIN " +
-                    "(SELECT @level := 0) AS init " +
-                    "WHERE " +
-                    "parentNO = 0 " +
+                    "FROM t_board " +
                     "ORDER BY " +
-                    "articleNO DESC";
+                    "CASE " +
+                    "WHEN parentNO = 0 THEN articleNO " +
+                    "ELSE parentNO " +
+                    "END, articleNO";
             System.out.println(query);
             pstmt = con.prepareStatement(query);
             ResultSet rs = pstmt.executeQuery();

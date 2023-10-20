@@ -39,7 +39,7 @@
         <td>
           <input type="submit" value="답글 반영하기"/>
           <input type="button" value="취소" onclick="backToList(this.form)">
-          <input type="hidden" name="articleNO" value="${aricleNO}">
+          <input type="hidden" name="articleNO" value="${articleNO}">
 
         </td>
       </tr>

@@ -7,16 +7,12 @@ M
 src/main/webapp/imageList.jsp,d/b/dbdc0656278a21fe6baf3743be0bc18d39b37978
 H
 src/main/webapp/add.html,0/8/0897c92048567e7f0ca122767eb4e00228f85f01
-S
-#src/main/webapp/error/error_404.jsp,2/9/29db38d61d3418245db77f37ac2383a76ff5032d
 P
  src/main/java/ex01/MemberVO.java,3/6/36a2e67de3c4fbaeb12979b8b2a4c3207b1a241e
 Q
 !src/main/webapp/test03/search.jsp,4/1/410c9f75b6b2c3089896c5e1de17d72b7a6fc94c
 S
 #src/main/webapp/error/error_500.jsp,7/e/7e228f5502e6530c53ca88cb8e598b48abea6479
-O
-src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
 O
 src/main/webapp/loginResult.jsp,4/8/48f6b8435a500f82fd7a5bc099d0a0efd72e55a6
 J
@@ -185,3 +181,23 @@ U
 %src/main/webapp/mvc/modMemberForm.jsp,9/c/9c8c2234832a6bb507985b18da1c97193c412c13
 S
 #src/main/java/MemberController.java,3/3/3389e99235ed67775db1c6145fb55b538e92ee15
+R
+"src/main/java/brd01/ArticleVO.java,a/c/ac985961205b387adeab570273902c409873eb90
+W
+'src/main/webapp/board02/articleForm.jsp,e/6/e674d451cc83fe48135e4c1c05fdc520cca26791
+U
+%src/main/java/brd01/BoardService.java,c/4/c4f9f1ddc66057727d0e1ca8a7ffed44e7ad3c6a
+U
+%src/main/webapp/board02/replyForm.jsp,0/c/0cae7d19ee9445d9987c9bc8025b830499b96df7
+W
+'src/main/webapp/board02/viewArticle.jsp,7/3/73da5cf4f849bca122036233ffd24bd755168fed
+S
+#src/main/webapp/error/error_404.jsp,2/9/29db38d61d3418245db77f37ac2383a76ff5032d
+R
+"src/main/java/BoardController.java,d/0/d00075ca5fadcb6be04773339f4b28ba67b80619
+O
+src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+X
+(src/main/webapp/board02/listArticles.jsp,5/c/5c803cee605b4ce71218fff533c37d2ededffa43
+Q
+!src/main/java/brd01/BoardDAO.java,5/b/5bd7884c9277bcc8982e4ed82c857a2451246dfb

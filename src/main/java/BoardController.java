@@ -48,11 +48,11 @@ public class BoardController extends HttpServlet {
             if (action == null){
                 articleList = boardService.listArticles();
                 request.setAttribute("articlesList", articleList);
-                nextPage = "/board01/listArticles.jsp";
+                nextPage = "/board02/listArticles.jsp";
             } else if(action.equals("/listArticles.do")){
                 articleList = boardService.listArticles();
                 request.setAttribute("articlesList", articleList);
-                nextPage = "/board01/listArticles.jsp";
+                nextPage = "/board02/listArticles.jsp";
             } else if(action.equals("/articleForm.do")){
                 nextPage = "/board02/articleForm.jsp";
             } else if(action.equals("/addArticle.do")){
@@ -109,7 +109,8 @@ public class BoardController extends HttpServlet {
                 articleVO.setId("zxc");
                 articleVO.setTitle(title);
                 articleVO.setContent(content);
-                int articleNO = boardService.addReply(articleVO);
+                int articleNO = Integer.parseInt(request.getParameter("articleNO"));
+                boardService.addReply(articleVO);
                 PrintWriter pw = response.getWriter();
                 pw.print("<script>" + "alert('답글을 추가하였습니다.');" + " location.href='"
                         + request.getContextPath() + "/board/viewArticle.do?articleNO=" + articleNO + "';" + "</script>");

@@ -12,6 +12,7 @@ public class BoardService {
 
     public List<ArticleVO> listArticles(){
         List<ArticleVO> articlesList = boardDAO.selectAllArticles();
+        System.out.println("list.size() : " + articlesList.size());
         return articlesList;
     }
 
