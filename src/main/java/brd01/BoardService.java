@@ -33,4 +33,8 @@ public class BoardService {
     public int addReply(ArticleVO article){
         return boardDAO.insertNewArticle(article);
     }
+    public void removeArticle(int articleNO){
+        boardDAO.deleteArticle(articleNO);
+        boardDAO.deleteArticle2(articleNO);
+    }
 }

@@ -170,6 +170,37 @@ public class BoardDAO {
     }
 
 
+    public void deleteArticle(int articleNO){
+        try {
+            connDB();
+            String query = "delete From t_board where articleNO = ?";
+            System.out.println(query);
+            pstmt = con.prepareStatement(query);
+            pstmt.setInt(1, articleNO);
+            pstmt.executeUpdate();
+            pstmt.close();
+            con.close();
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void deleteArticle2(int articleNO){
+        try {
+            connDB();
+            String query = "delete From t_board where parentNO = ?";
+            System.out.println(query);
+            pstmt = con.prepareStatement(query);
+            pstmt.setInt(1, articleNO);
+            pstmt.executeUpdate();
+            pstmt.close();
+            con.close();
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 
 

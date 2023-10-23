@@ -112,9 +112,16 @@ public class BoardController extends HttpServlet {
                 int articleNO = Integer.parseInt(request.getParameter("articleNO"));
                 boardService.addReply(articleVO);
                 PrintWriter pw = response.getWriter();
-                pw.print("<script>" + "alert('답글을 추가하였습니다.');" + " location.href='"
+                pw.print("<script>" + " alert('답글을 추가하였습니다.');" + " location.href='"
                         + request.getContextPath() + "/board/viewArticle.do?articleNO=" + articleNO + "';" + "</script>");
 
+                return;
+            } else if (action.equals("/removeArticle.do")){
+                int articleNO = Integer.parseInt(request.getParameter("articleNO"));
+                boardService.removeArticle(articleNO);
+                PrintWriter pw = response.getWriter();
+                pw.print("<script>" + " alert('글을 삭제했습니다.'); " + " location.href='" + request.getContextPath() + "/board/listArticles.do'"
+                        + "</script>");
                 return;
             }
 

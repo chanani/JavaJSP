@@ -131,10 +131,6 @@ R
 "src/main/java/ex03/FileUpload.java,9/2/92e68ea0ae559b96aba991910fbd9c96a93624d2
 S
 #src/main/webapp/ex04/uploadForm.jsp,c/1/c196898c086d5a8c383adf3c95d6ed8fdab89a82
-S
-#src/main/webapp/jquery/jQuery1.html,7/d/7dfcc7e5dfc1b1bb8d4f5064be9dc24b2cb0b652
-S
-#src/main/webapp/jquery/jQuery2.html,d/4/d498aa5425b708bf6a5d78d1e6bd432f3e714b89
 L
 src/main/java/AjaxTest1.java,e/2/e227490d219fae0b6047f7cb3b85e205a25b4bbb
 7
@@ -151,8 +147,6 @@ Q
 !src/main/java/ex04/MemberDAO.java,7/e/7e0b7a111fbae8ab65cd46762ff94581218a444d
 R
 "src/main/java/ex02/MemberBean.java,a/d/ad95fd89fee343dc1a2880ab0fd8a41639a73b35
-S
-#src/main/webapp/jquery/jQuery3.html,e/5/e57853ae95f51b3e51c094d670a00009e75c6f41
 V
 &src/main/webapp/expression/elTest2.jsp,8/6/868f99e7aa7658174c59f70ae8088aa09cf1fa76
 V
@@ -185,19 +179,13 @@ R
 "src/main/java/brd01/ArticleVO.java,a/c/ac985961205b387adeab570273902c409873eb90
 W
 'src/main/webapp/board02/articleForm.jsp,e/6/e674d451cc83fe48135e4c1c05fdc520cca26791
-U
-%src/main/java/brd01/BoardService.java,c/4/c4f9f1ddc66057727d0e1ca8a7ffed44e7ad3c6a
-U
-%src/main/webapp/board02/replyForm.jsp,0/c/0cae7d19ee9445d9987c9bc8025b830499b96df7
-W
-'src/main/webapp/board02/viewArticle.jsp,7/3/73da5cf4f849bca122036233ffd24bd755168fed
-S
-#src/main/webapp/error/error_404.jsp,2/9/29db38d61d3418245db77f37ac2383a76ff5032d
-R
-"src/main/java/BoardController.java,d/0/d00075ca5fadcb6be04773339f4b28ba67b80619
-O
-src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
 X
 (src/main/webapp/board02/listArticles.jsp,5/c/5c803cee605b4ce71218fff533c37d2ededffa43
-Q
-!src/main/java/brd01/BoardDAO.java,5/b/5bd7884c9277bcc8982e4ed82c857a2451246dfb
+S
+#src/main/webapp/jquery/jQuery3.html,e/5/e57853ae95f51b3e51c094d670a00009e75c6f41
+S
+#src/main/webapp/jquery/jQuery2.html,d/4/d498aa5425b708bf6a5d78d1e6bd432f3e714b89
+S
+#src/main/webapp/jquery/jQuery1.html,7/d/7dfcc7e5dfc1b1bb8d4f5064be9dc24b2cb0b652
+U
+%src/main/webapp/board02/replyForm.jsp,0/c/0cae7d19ee9445d9987c9bc8025b830499b96df7
